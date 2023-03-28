@@ -1,0 +1,163 @@
+body {
+     /* Ваши стили */
+     background: linear-gradient(-45deg,
+       #ff82b6, /* Первый цвет */
+       #e73c7e, /* Второй цвет */
+       #23a6d5, /* Третий цвет */
+       #23d5ab /* Четвертый цвет */
+     );
+     background-size: 400% 400%;
+     animation: gradient 45s ease infinite;
+     height: 100vh;
+ }
+
+@keyframes gradient {
+ 
+ 0% {
+     background-position: 0% 50%;
+ }
+ 50% {
+     background-position: 100% 50%;
+ }
+ 
+ 100% {
+     background-position: 0% 50%;
+ }
+}
+
+
+}
+.img{
+    position: absolute;
+   
+}
+.korol{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 38%;
+    height: 10%;
+    margin:0 auto;
+
+
+}
+.wb{
+    position: absolute;
+    background-color: white;
+    width: 682px;
+    height: 800px;
+    left: 50%;
+    top: 50%;
+   margin:0 auto;
+
+}
+.ss{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.log_sig_esc{
+    position: absolute;
+    left: 50%;
+    width: 100%;
+    height: 50%;
+}
+.login{
+position: absolute;
+top: 10%;
+left: 10%;
+}
+.sing{
+position: absolute;
+top: 10%;
+left: 20%;
+}
+.img_x{
+    position: absolute;
+    left: 40%;
+    top: 10%;
+}
+.user{
+    width: 30%;
+ position: absolute;
+    left: 50%;
+    bottom: 30%;
+    color: grey;
+    padding: 20px 20px 20px 20px;
+   left: 55%;
+}
+.pass{
+ position: absolute;
+    left: 50%;
+    bottom: 20%;
+    color: grey;
+    padding: 20px 20px 20px 20px;
+    left: 55%;
+    width: 30%;
+}
+.buttom{
+     position: absolute;
+    left: 50%; 
+   bottom: 1%;
+}
+
+a{text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    font-size: 20px;
+}
+button {
+    position: absolute;
+    left: 63%; 
+   bottom: 10%;
+ padding: 0.8em 1.8em;
+ border: 2px solid #17C3B2;
+ overflow: hidden;
+ background-color: transparent;
+ text-align: center;
+ text-transform: uppercase;
+ font-size: 16px;
+ transition: .3s;
+ z-index: 1;
+ font-family: inherit;
+ color: #17C3B2;
+}
+
+button::before {
+ content: '';
+ width: 0;
+ height: 300%;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%) rotate(45deg);
+ background: #17C3B2;
+ transition: .5s ease;
+ display: block;
+ z-index: -1;
+}
+
+button:hover::before {
+ width: 105%;
+}
+
+button:hover {
+ color: #111;
+}
+.input {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  border: 1px solid #DADCE0;
+  border-radius: 7px;
+  font-size: 16px;
+  padding: 0 20px;
+  outline: none;
+  background: none;
+  z-index: 1;
+}
+
